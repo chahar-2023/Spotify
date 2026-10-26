@@ -1,5 +1,5 @@
 ### 🎵 Login Page
-![Login Screenshot](./assets/login.png)
+![Login Screenshot](./assets/Login.png)
 
 ### 🎧 Artist Dashboard
-![Dashboard Screenshot](./assets/dashboard.png)
+![Dashboard Screenshot](./assets/ArtistDashboard.png)
