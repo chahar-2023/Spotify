@@ -1,8 +1,8 @@
 ### 🎵 Login Page
-![Login Screenshot](./assets/Login.png)
+![Login Screenshot](https://raw.githubusercontent.com/chahar-2023/Spotify/main/assets/Login.png)
 
 ### 🎧 Artist Dashboard
-![Dashboard Screenshot](./assets/ArtistDashboard.png)
+![Dashboard Screenshot](https://raw.githubusercontent.com/chahar-2023/Spotify/main/assets/ArtistDashboard.png)
 
 ### 📁 Upload Song
-![Upload Screenshot](./assets/UplaodSong.png)
+![Upload Screenshot](https://raw.githubusercontent.com/chahar-2023/Spotify/main/assets/UplaodSong.png)
