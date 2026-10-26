@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FiChevronDown, FiPlus } from "react-icons/fi";
 import { useAuth } from "../../context/AuthContext";
 import { useMusic } from "../../context/MusicContext";
-import { createMusic, createAlbum } from "../../apis/musicApis";
+import { createMusic, createAlbum } from "../../apis/musicAPis";
 import { CoverDrop, AudioDrop } from "../../components/UploadFields";
 import { ErrorNote } from "../../components/Feedback";
 

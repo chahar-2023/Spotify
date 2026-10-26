@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FiLock } from "react-icons/fi";
 import { useAuth } from "../context/AuthContext";
 import { useMusic } from "../context/MusicContext";
-import { createAlbum } from "../apis/musicAPIs";
+import { createAlbum } from "../apis/musicAPis";
 import { ownedBy } from "../utils/normalize";
 import Cover from "../components/Cover";
 import { Empty, ErrorNote } from "../components/Feedback";

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { FiMoreVertical, FiPlay, FiTrash2 } from "react-icons/fi";
 import { usePlayer } from "../context/PlayerContext";
-import { deleteMusic } from "../apis/musicApis";
+import { deleteMusic } from "../apis/musicAPis";
 import { formatCount, formatDate } from "../utils/format";
 import Cover from "./Cover";
 
