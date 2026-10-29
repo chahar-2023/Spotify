@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
-import { getAllSongs, getAllAlbums } from "../apis/musicAPis";
+import { getAllSongs, getAllAlbums } from "../apis/musicAPIs";
 
 const MusicContext = createContext(null);
 export const useMusic = () => useContext(MusicContext);
