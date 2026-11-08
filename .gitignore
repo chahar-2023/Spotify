@@ -1,3 +1,4 @@
+git mv --force name-in-github-desktop.txt name-on-computer.txt
 node_modules
 dist
 .env
