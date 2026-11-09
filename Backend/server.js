@@ -1,30 +1,12 @@
 require('dotenv').config();
 const app = require('./src/app');
-const connectDB = require('./src/db/db');
 
-app.get('/', (req, res) => {
-  res.send('Spotify API backend is running!');
-});
-
-// For Vercel: wait for the DB connection before every request
-module.exports = async (req, res) => {
-  try {
-    await connectDB();
-  } catch (err) {
-    return res.status(500).json({ message: 'Database connection failed' });
-  }
-  return app(req, res);
-};
-
-// For local: runs only when you start the file directly with `node server.js`
+// सिर्फ़ लोकल के लिए: node server.js चलाने पर सर्वर शुरू होगा
 if (require.main === module) {
-  connectDB()
-    .then(() => {
-      app.listen(3000, () => {
-        console.log('Server is running on port 3000');
-      });
-    })
-    .catch((err) => {
-      console.log('Server start failed', err);
-    });
+  app.listen(3000, () => {
+    console.log('Server is running on port 3000');
+  });
 }
+
+// Vercel इसी को इस्तेमाल करेगा
+module.exports = app;
